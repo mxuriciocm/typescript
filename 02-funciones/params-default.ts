@@ -1,8 +1,8 @@
 (() => {
   const fullName = (
     firstName: string,
-    lastName?: string,
-    upper: boolean = false
+    lastName?: string, // the ? it means that the parameter is optional
+    upper: boolean = false // here a default parameter is beign initialized to false
   ): string => {
     if (upper) {
       return `${firstName} ${lastName || "----"}`.toLowerCase();

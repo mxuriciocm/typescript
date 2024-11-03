@@ -1,5 +1,5 @@
 (() => {
-  const fullName = (firstName: string, lastName: string) => {
+  const fullName = (firstName: string, lastName: string) => { // when putting ':' means that the parameter is required
     return `${firstName} ${lastName}`;
   };
 
